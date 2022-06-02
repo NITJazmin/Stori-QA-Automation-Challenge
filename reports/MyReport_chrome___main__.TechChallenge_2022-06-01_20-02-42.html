@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2022-06-01 20:02:42</p>
+                <p class='attribute'><strong>Duration: </strong>79.65 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 5, Pass: 4, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TechChallenge</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_ACONT_001</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Abrimos navegador chrome...
+Encontrado
+...............Fin de Test .............
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_ACONT_002</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Abrimos navegador chrome...
+Se actualizo la opcion
+...............Fin de Test .............
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_ACONT_003</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Abrimos navegador chrome...
+btn_alert ***************  Hello Stori Card, share this practice page and share your knowledge **** 
+btn_confirm ***************  Hello Stori Card, Are you sure you want to confirm? **** 
+Texto coincide
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_ACOUR_001</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Abrimos navegador chrome...
+*** 4:  30 DAY MONEY BACK GUARANTEE ***
+*** 1:  SELF PACED ONLINE TRAINING ***
+*** 2:  IN DEPTH MATERIAL ***
+</p><p style="color:maroon;">Exception: Titulo no coincide</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\gavir\Documents\TechChallenge\TechChallenge.py", line 103, in test_ACOUR_001
+    t2=driver.find_element(By.XPATH,"//*[text()='"+titles[2]+"']")
+  File "C:\Users\gavir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 1251, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\gavir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\gavir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Liftime Instructor Support']"}
+  (Session info: chrome=102.0.5005.63)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DED953+2414931]
+	Ordinal0 [0x00D7F5E1+1963489]
+	Ordinal0 [0x00C6C6B8+837304]
+	Ordinal0 [0x00C99500+1021184]
+	Ordinal0 [0x00C9979B+1021851]
+	Ordinal0 [0x00CC6502+1205506]
+	Ordinal0 [0x00CB44E4+1131748]
+	Ordinal0 [0x00CC4812+1198098]
+	Ordinal0 [0x00CB42B6+1131190]
+	Ordinal0 [0x00C8E860+976992]
+	Ordinal0 [0x00C8F756+980822]
+	GetHandleVerifier [0x0105CC62+2510274]
+	GetHandleVerifier [0x0104F760+2455744]
+	GetHandleVerifier [0x00E7EABA+551962]
+	GetHandleVerifier [0x00E7D916+547446]
+	Ordinal0 [0x00D85F3B+1990459]
+	Ordinal0 [0x00D8A898+2009240]
+	Ordinal0 [0x00D8A985+2009477]
+	Ordinal0 [0x00D93AD1+2046673]
+	BaseThreadInitThunk [0x7639FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77477A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77477A4E+238]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gavir\Documents\TechChallenge\TechChallenge.py", line 108, in test_ACOUR_001
+    raise Exception("Titulo no coincide")
+Exception: Titulo no coincide
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_ASTORE_001</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Abrimos navegador chrome...
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 5, Pass: 4, Error: 1 -- Duration: 79.65 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
